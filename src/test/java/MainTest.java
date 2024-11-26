@@ -135,7 +135,7 @@ public class MainTest {
         Contact contact = new Contact("Test", "12345678");
         mobilePhone.addNewContact(new Contact("Test", "12345678"));
 
-        assertEquals(mobilePhone.removeContact(contact), true);
+        assertEquals(mobilePhone.removeNewContact(contact), true);
         assertEquals(mobilePhone.getMyContacts().size(),3);
     }
 
